@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+            form
+                {
+                    margin-top: 40px;
+                }
+            button
+                {
+                    margin-top: 20px;
+                }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-8" >
+                        <img src="IMG_20221009_214824.jpg" alt="" 
+                        style="border: solid white;
+                         height: 650px;
+                         width: 700px;">
+                </div>
+                <div class="col-sm-4">
+                        
+                        <form action="/action_page.php">
+                            <div style="font-size: x-large;">Sign Up</div>
+                            <div class="form-group" style="padding-top: 30px;">
+                                <label for="Full Name">Full Name: </label>
+                                <input type="Full Name" class="form-control" id="Full Name" placeholder="Name...." name="Full name">
+                              </div>
+                            <div class="form-group">
+                              <label for="email">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Email address.." name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Username">Username: </label>
+                                <input type="Username" class="form-control" id="Username" placeholder="Username..." name="email">
+                              </div>
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Repeat Password:</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Repeat Password" name="pwd">
+                              </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="Terms" > I agree to the <a><b>Terms of user </b></a></label>
+                            </div>
+                                <button type="submit" class="btn btn-default"> Sign Up</button>
+                                <a href="template.html" style="float: right; padding-top: 30px;">Sign In</a>
+                          </form>
+                        </div>
+                </div>
+
+        </div>
+</div>
+</body>
+</html>
